@@ -1,5 +1,6 @@
 import TextType from './ui/TextType';
 import PixelBlast from './ui/PixelBlast';
+import StatusCard from "./status/StatusCard";
 
 export default function Hero() {
     return (
@@ -48,7 +49,7 @@ export default function Hero() {
             </div>
           </div>
           {/* Right side could be a photo or React Bits component later */}
-          <div className="flex-1 h-40 md:h-64 z-10 rounded-2xl border border-white/10 bg-slate-900/40" />
+          <StatusCard />
         </div>
       </section>
     );
